@@ -3,13 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting... - Nexi Bot Documentation</title>
+    <title>Nexi Bot Documentation</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            margin: 50px auto; 
+            background: #000; 
+            color: #fff; 
+            max-width: 600px;
+            padding: 20px;
+        }
+        a { 
+            color: #e64d1e; 
+            text-decoration: none; 
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            border: 1px solid #e64d1e;
+            border-radius: 5px;
+        }
+        a:hover {
+            background: #e64d1e;
+            color: white;
+        }
+    </style>
     <script>
-        // Immediate redirect to home page
+        // Try to redirect to PHP version first
+        setTimeout(function() {
+            // If we're still on this page after 2 seconds, show the content
+            document.getElementById('content').style.display = 'block';
+        }, 2000);
+        
+        // Immediate redirect attempt
         window.location.href = 'home.php';
     </script>
 </head>
 <body>
-    <p>Redirecting to <a href="home.php">Nexi Bot Documentation</a>...</p>
+    <div id="loading">
+        <h1>Nexi Bot Documentation</h1>
+        <p>Redirecting to documentation...</p>
+    </div>
+    
+    <div id="content" style="display: none;">
+        <h1>Nexi Bot Documentation</h1>
+        <p>If you're seeing this, there may be an issue with PHP processing.</p>
+        
+        <h3>Try these links:</h3>
+        <a href="home.php">Home (PHP)</a>
+        <a href="static.html">Static Version</a>
+        <a href="debug.php">Debug Info</a>
+        <a href="test.php">PHP Test</a>
+        
+        <h3>Direct Page Access:</h3>
+        <a href="changelog.php">Changelog</a>
+        <a href="support.php">Support</a>
+        <a href="premium.php">Premium</a>
+    </div>
 </body>
 </html>
