@@ -1,19 +1,23 @@
 RewriteEngine On
 
-# Remove .php extension from URLs
+# Set default page
+DirectoryIndex index.php
+
+# Remove .php extension from URLs (optional - for cleaner URLs)
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
-# Redirect .php URLs to clean URLs
+# Redirect .php URLs to clean URLs (optional)
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]
 RewriteRule ^ /%1? [R=301,L]
 
-# Set default page
-DirectoryIndex home.php
+# Security headers (may not work on all hosts)
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options nosniff
+    Header always set X-Frame-Options DENY
+    Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
 
-# Security headers
-Header always set X-Content-Type-Options nosniff
-Header always set X-Frame-Options DENY
-Header always set X-XSS-Protection "1; mode=block"
-Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+# Error pages
+ErrorDocument 404 /home.php
