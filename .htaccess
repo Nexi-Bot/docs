@@ -1,6 +1,18 @@
 # Basic configuration for PHP hosting
 DirectoryIndex index.php index.html
 
+# URL Rewriting for clean URLs
+RewriteEngine On
+
+# Remove .php extension from URLs
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Redirect .php URLs to clean URLs
+RewriteCond %{THE_REQUEST} /([^?\s]*?)\.php[\s?] [NC]
+RewriteRule ^ /%1? [R=301,L]
+
 # Basic security (if supported)
 <Files ~ "^\.(htaccess|htpasswd)$">
 deny from all

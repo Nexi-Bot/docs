@@ -35,9 +35,9 @@ if (file_exists(__DIR__ . '/home.php')) {
         <div class="container">
             <h1>Nexi Bot Documentation</h1>
             <p>Welcome to the Nexi Bot documentation site.</p>
-            <p><a href="home.php">Go to Home Page</a></p>
-            <p><a href="changelog.php">View Changelog</a></p>
-            <p><a href="support.php">Get Support</a></p>
+            <p><a href="home">Go to Home Page</a></p>
+            <p><a href="changelog">View Changelog</a></p>
+            <p><a href="support">Get Support</a></p>
         </div>
     </body>
     </html>';

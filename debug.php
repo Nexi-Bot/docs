@@ -39,8 +39,8 @@ if ($handle = opendir(__DIR__)) {
 }
 
 echo "<h2>Test Links:</h2>";
-echo '<a href="index.php">Test index.php</a><br>';
+echo '<a href="index">Test index.php</a><br>';
 echo '<a href="index.html">Test index.html</a><br>';
-echo '<a href="home.php">Test home.php</a><br>';
-echo '<a href="test.php">Test test.php</a><br>';
+echo '<a href="home">Test home.php</a><br>';
+echo '<a href="test">Test test.php</a><br>';
 ?>
