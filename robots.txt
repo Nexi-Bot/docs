@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://documentation.nexibot.uk/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow sensitive areas (if any)
+Disallow: /includes/
+Disallow: /.htaccess
+Disallow: /README.md
