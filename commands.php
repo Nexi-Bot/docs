@@ -25,7 +25,11 @@ include 'includes/header.php';
                 <p>Complete guide to all Nexi Bot commands. Use this reference to discover powerful features and learn how to use them effectively in your Discord server.</p>
 
                 <div class="alert alert-info">
-                    <strong>How to Read This Guide:</strong> Commands marked with [Premium] require premium subscription. Permission levels range from none to Administrator. All commands use Discord's slash command system.
+                    <strong>How to Read This Guide:</strong> Commands are clearly marked with colored badges:
+                    <span class="badge badge-free" style="margin-left: 8px;">FREE</span> commands are available to everyone, 
+                    <span class="badge badge-premium" style="margin-left: 8px;">PREMIUM</span> commands require a premium subscription, and 
+                    <span class="badge badge-partial" style="margin-left: 8px;">PARTIAL</span> commands have both free and premium features. 
+                    All commands use Discord's slash command system.
                 </div>
 
                 <h2 id="overview">Command Overview</h2>
@@ -167,21 +171,21 @@ include 'includes/header.php';
                         <p>Core music playback and queue management.</p>
                         <p><strong>Subcommands:</strong></p>
                         <ul>
-                            <li><code>/music play &lt;song&gt;</code> - <span class="free-badge">Free</span> - Play music from YouTube, Spotify, or URL</li>
-                            <li><code>/music search &lt;query&gt;</code> - <span class="free-badge">Free</span> - Search for music tracks</li>
-                            <li><code>/music skip</code> - <span class="free-badge">Free</span> - Skip the current song</li>
-                            <li><code>/music stop</code> - <span class="free-badge">Free</span> - Stop music and clear queue</li>
-                            <li><code>/music pause</code> - <span class="free-badge">Free</span> - Pause the current song</li>
-                            <li><code>/music resume</code> - <span class="free-badge">Free</span> - Resume paused music</li>
-                            <li><code>/music queue</code> - <span class="free-badge">Free</span> - View the current music queue</li>
-                            <li><code>/music volume &lt;level&gt;</code> - <span class="free-badge">Free</span> - Adjust playback volume (0-100)</li>
-                            <li><code>/music shuffle</code> - <span class="free-badge">Free</span> - Shuffle the music queue</li>
-                            <li><code>/music nowplaying</code> - <span class="free-badge">Free</span> - Show currently playing song</li>
-                            <li><code>/music clear</code> - <span class="free-badge">Free</span> - Clear the entire music queue</li>
-                            <li><code>/music lyrics</code> - <span class="free-badge">Free</span> - Display lyrics for current song</li>
-                            <li><code>/music skipto &lt;position&gt;</code> - <span class="free-badge">Free</span> - Skip to specific queue position</li>
-                            <li><code>/music songinfo</code> - <span class="free-badge">Free</span> - Get detailed song information</li>
-                            <li><code>/music radio &lt;station&gt;</code> - <span class="premium-badge">Premium</span> - Play radio stations</li>
+                            <li><code>/music play &lt;song&gt;</code> <span class="free-badge">FREE</span> - Play music from YouTube, Spotify, or URL</li>
+                            <li><code>/music search &lt;query&gt;</code> <span class="free-badge">FREE</span> - Search for music tracks</li>
+                            <li><code>/music skip</code> <span class="free-badge">FREE</span> - Skip the current song</li>
+                            <li><code>/music stop</code> <span class="free-badge">FREE</span> - Stop music and clear queue</li>
+                            <li><code>/music pause</code> <span class="free-badge">FREE</span> - Pause the current song</li>
+                            <li><code>/music resume</code> <span class="free-badge">FREE</span> - Resume paused music</li>
+                            <li><code>/music queue</code> <span class="free-badge">FREE</span> - View the current music queue</li>
+                            <li><code>/music volume &lt;level&gt;</code> <span class="free-badge">FREE</span> - Adjust playback volume (0-100)</li>
+                            <li><code>/music shuffle</code> <span class="free-badge">FREE</span> - Shuffle the music queue</li>
+                            <li><code>/music nowplaying</code> <span class="free-badge">FREE</span> - Show currently playing song</li>
+                            <li><code>/music clear</code> <span class="free-badge">FREE</span> - Clear the entire music queue</li>
+                            <li><code>/music lyrics</code> <span class="free-badge">FREE</span> - Display lyrics for current song</li>
+                            <li><code>/music skipto &lt;position&gt;</code> <span class="free-badge">FREE</span> - Skip to specific queue position</li>
+                            <li><code>/music songinfo</code> <span class="free-badge">FREE</span> - Get detailed song information</li>
+                            <li><code>/music radio &lt;station&gt;</code> <span class="premium-badge">PREMIUM</span> - Play radio stations</li>
                         </ul>
                     </div>
                 </div>
@@ -342,11 +346,11 @@ include 'includes/header.php';
                         <p>Useful utility commands and information.</p>
                         <p><strong>Subcommands:</strong></p>
                         <ul>
-                            <li><code>/utility userinfo [user]</code> - Display user information and statistics</li>
-                            <li><code>/utility serverinfo</code> - Show detailed server information</li>
-                            <li><code>/utility avatar [user]</code> - Display user's avatar in full size</li>
-                            <li><code>/utility invite</code> - Get bot invite link</li>
-                            <li><code>/utility ping</code> - Check bot latency and response time</li>
+                            <li><code>/utility userinfo [user]</code> <span class="free-badge">FREE</span> - Display user information and statistics</li>
+                            <li><code>/utility serverinfo</code> <span class="free-badge">FREE</span> - Show detailed server information</li>
+                            <li><code>/utility avatar [user]</code> <span class="free-badge">FREE</span> - Display user's avatar in full size</li>
+                            <li><code>/utility invite</code> <span class="free-badge">FREE</span> - Get bot invite link</li>
+                            <li><code>/utility ping</code> <span class="free-badge">FREE</span> - Check bot latency and response time</li>
                         </ul>
                     </div>
                 </div>
