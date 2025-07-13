@@ -21,26 +21,26 @@ include 'includes/header.php';
             </div>
             
             <div class="content-main">
-                <h1>🎯 Commands Reference</h1>
+                <h1>Commands Reference</h1>
                 <p>Complete guide to all Nexi Bot commands. Use this reference to discover powerful features and learn how to use them effectively in your Discord server.</p>
 
                 <div class="alert alert-info">
-                    <strong>How to Read This Guide:</strong> Commands marked with 💎 require premium subscription. Permission levels range from none to Administrator. All commands use Discord's slash command system.
+                    <strong>How to Read This Guide:</strong> Commands marked with [Premium] require premium subscription. Permission levels range from none to Administrator. All commands use Discord's slash command system.
                 </div>
 
                 <h2 id="overview">Command Overview</h2>
                 
                 <div class="stats-grid">
                     <div class="stat-item">
-                        <div class="stat-number">35+</div>
+                        <div class="stat-number">65</div>
                         <div class="stat-label">Total Commands</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">20+</div>
+                        <div class="stat-number">48</div>
                         <div class="stat-label">Free Commands</div>
                     </div>
                     <div class="stat-item">
-                        <div class="stat-number">15+</div>
+                        <div class="stat-number">17</div>
                         <div class="stat-label">Premium Commands</div>
                     </div>
                     <div class="stat-item">
@@ -79,9 +79,9 @@ include 'includes/header.php';
                         <ul>
                             <li>Feature toggles (Free & Premium)</li>
                             <li>Channel configuration</li>
-                            <li>API key management (Premium 💎)</li>
-                            <li>Advanced settings (Premium 💎)</li>
-                            <li>Configuration export/import (Premium 💎)</li>
+                            <li>API key management (Premium)</li>
+                            <li>Advanced settings (Premium)</li>
+                            <li>Configuration export/import (Premium)</li>
                         </ul>
                     </div>
                 </div>
@@ -181,7 +181,7 @@ include 'includes/header.php';
                             <li><code>/music lyrics</code> - <span class="free-badge">Free</span> - Display lyrics for current song</li>
                             <li><code>/music skipto &lt;position&gt;</code> - <span class="free-badge">Free</span> - Skip to specific queue position</li>
                             <li><code>/music songinfo</code> - <span class="free-badge">Free</span> - Get detailed song information</li>
-                            <li><code>/music radio &lt;station&gt;</code> - <span class="premium-badge">💎 Premium</span> - Play radio stations</li>
+                            <li><code>/music radio &lt;station&gt;</code> - <span class="premium-badge">Premium</span> - Play radio stations</li>
                         </ul>
                     </div>
                 </div>
@@ -191,7 +191,7 @@ include 'includes/header.php';
                         <h3><code>/music-fx</code> - Music Effects and Filters</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">None</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -400,7 +400,7 @@ include 'includes/header.php';
                         <h3><code>/aimoderation</code> - AI-Powered Content Moderation</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">Moderate Members</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -414,7 +414,7 @@ include 'includes/header.php';
                         <h3><code>/analytics</code> - Server Analytics Dashboard</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">Administrator</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -428,7 +428,7 @@ include 'includes/header.php';
                         <h3><code>/banappeals</code> - Ban Appeals Management</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">Administrator</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -442,7 +442,7 @@ include 'includes/header.php';
                         <h3><code>/economy</code> - Virtual Economy System</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">None</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -456,7 +456,7 @@ include 'includes/header.php';
                         <h3><code>/erlc</code> - Emergency Response: Liberty County</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">None</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -470,7 +470,7 @@ include 'includes/header.php';
                         <h3><code>/giveaways</code> - Giveaway Management</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">Manage Server</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -484,7 +484,7 @@ include 'includes/header.php';
                         <h3><code>/googlecalendar</code> - Google Calendar Integration</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">Administrator</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -498,7 +498,7 @@ include 'includes/header.php';
                         <h3><code>/googleforms</code> - Google Forms Integration</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">Administrator</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -512,7 +512,7 @@ include 'includes/header.php';
                         <h3><code>/imagemoderation</code> - Image Content Moderation</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">Moderate Members</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -526,7 +526,7 @@ include 'includes/header.php';
                         <h3><code>/jotform</code> - Jotform Integration</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">Administrator</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -540,7 +540,7 @@ include 'includes/header.php';
                         <h3><code>/mod-advanced</code> - Advanced Moderation</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">Moderate Members</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -554,7 +554,7 @@ include 'includes/header.php';
                         <h3><code>/order</code> - Order System (User)</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">None</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -568,7 +568,7 @@ include 'includes/header.php';
                         <h3><code>/orders</code> - Order System (Admin)</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">Administrator</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -582,7 +582,7 @@ include 'includes/header.php';
                         <h3><code>/roblox</code> - Roblox Integration</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">None</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -596,7 +596,7 @@ include 'includes/header.php';
                         <h3><code>/robloxappcentre</code> - Roblox Application Centre</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">None</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -610,7 +610,7 @@ include 'includes/header.php';
                         <h3><code>/shop</code> - Virtual Shop System</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">None</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">
@@ -624,7 +624,7 @@ include 'includes/header.php';
                         <h3><code>/socialmedia</code> - Social Media Integration</h3>
                         <div class="command-badges">
                             <span class="badge badge-permission">Administrator</span>
-                            <span class="badge badge-premium">💎 Premium</span>
+                            <span class="badge badge-premium">Premium</span>
                         </div>
                     </div>
                     <div class="command-description">

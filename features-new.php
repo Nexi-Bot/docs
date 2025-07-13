@@ -17,7 +17,7 @@ include 'includes/header.php';
             </div>
             
             <div class="content-main">
-                <h1>Features Overview</h1>
+                <h1>⚡ Features Overview</h1>
                 <p>Nexi Bot offers a comprehensive suite of features designed to transform your Discord server into a thriving community. From essential moderation tools to advanced AI-powered automation, discover what makes Nexi Bot the ultimate choice for server management.</p>
 
                 <div class="alert alert-info">
@@ -45,7 +45,7 @@ include 'includes/header.php';
                     </div>
                 </div>
 
-                <h2 id="free-features">Free Features</h2>
+                <h2 id="free-features">🆓 Free Features</h2>
 
                 <h3>Core Server Management</h3>
                 <div class="feature-list">
@@ -187,28 +187,28 @@ include 'includes/header.php';
                     </div>
                 </div>
 
-                <h2 id="premium-features">Premium Features</h2>
+                <h2 id="premium-features">💎 Premium Features</h2>
 
                 <h3>Advanced Moderation & AI</h3>
                 <div class="feature-list premium">
                     <div class="feature-item">
-                        <div class="feature-name">AI-Powered Moderation <span class="premium-badge"></span></div>
+                        <div class="feature-name">AI-Powered Moderation <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Intelligent content filtering using OpenAI</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Advanced Auto-Moderation <span class="premium-badge"></span></div>
+                        <div class="feature-name">Advanced Auto-Moderation <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Context-aware rule enforcement</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Image Moderation <span class="premium-badge"></span></div>
+                        <div class="feature-name">Image Moderation <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Automatic inappropriate image detection</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Enhanced Logging System <span class="premium-badge"></span></div>
+                        <div class="feature-name">Enhanced Logging System <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Comprehensive audit trails</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Advanced Moderation Tools <span class="premium-badge"></span></div>
+                        <div class="feature-name">Advanced Moderation Tools <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Sophisticated punishment workflows</div>
                     </div>
                 </div>
@@ -216,23 +216,23 @@ include 'includes/header.php';
                 <h3>External Service Integrations</h3>
                 <div class="feature-list premium">
                     <div class="feature-item">
-                        <div class="feature-name">Google Calendar Integration <span class="premium-badge"></span></div>
+                        <div class="feature-name">Google Calendar Integration <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Sync events and reminders</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Google Forms Integration <span class="premium-badge"></span></div>
+                        <div class="feature-name">Google Forms Integration <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Automate form response handling</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Jotform Integration <span class="premium-badge"></span></div>
+                        <div class="feature-name">Jotform Integration <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Advanced form management and analytics</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">ERLC Integration <span class="premium-badge"></span></div>
+                        <div class="feature-name">ERLC Integration <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Emergency Response Liberty County game features</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Social Media Integration <span class="premium-badge"></span></div>
+                        <div class="feature-name">Social Media Integration <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Auto-post updates from social platforms</div>
                     </div>
                 </div>
@@ -240,23 +240,23 @@ include 'includes/header.php';
                 <h3>Advanced Analytics & Insights</h3>
                 <div class="feature-list premium">
                     <div class="feature-item">
-                        <div class="feature-name">Server Analytics Dashboard <span class="premium-badge"></span></div>
+                        <div class="feature-name">Server Analytics Dashboard <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Detailed growth and engagement metrics</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Member Activity Analytics <span class="premium-badge"></span></div>
+                        <div class="feature-name">Member Activity Analytics <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">User engagement tracking</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Message Pattern Analysis <span class="premium-badge"></span></div>
+                        <div class="feature-name">Message Pattern Analysis <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Communication trend insights</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Custom Report Generation <span class="premium-badge"></span></div>
+                        <div class="feature-name">Custom Report Generation <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Personalized analytics reports</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Data Export Capabilities <span class="premium-badge"></span></div>
+                        <div class="feature-name">Data Export Capabilities <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Export analytics data for external use</div>
                     </div>
                 </div>
@@ -264,23 +264,23 @@ include 'includes/header.php';
                 <h3>Roblox Game Integration</h3>
                 <div class="feature-list premium">
                     <div class="feature-item">
-                        <div class="feature-name">Roblox Player Verification <span class="premium-badge"></span></div>
+                        <div class="feature-name">Roblox Player Verification <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Link Discord accounts to Roblox</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Group Management Tools <span class="premium-badge"></span></div>
+                        <div class="feature-name">Group Management Tools <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Manage Roblox group members</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Roblox Application Centre <span class="premium-badge"></span></div>
+                        <div class="feature-name">Roblox Application Centre <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Game submission and review system</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Player Statistics <span class="premium-badge"></span></div>
+                        <div class="feature-name">Player Statistics <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Detailed Roblox player performance data</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Automated Rank Management <span class="premium-badge"></span></div>
+                        <div class="feature-name">Automated Rank Management <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Sync Roblox ranks with Discord roles</div>
                     </div>
                 </div>
@@ -288,23 +288,23 @@ include 'includes/header.php';
                 <h3>Advanced Economy & Commerce</h3>
                 <div class="feature-list premium">
                     <div class="feature-item">
-                        <div class="feature-name">Virtual Economy System <span class="premium-badge"></span></div>
+                        <div class="feature-name">Virtual Economy System <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Server-specific currency and rewards</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Advanced Shop System <span class="premium-badge"></span></div>
+                        <div class="feature-name">Advanced Shop System <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Virtual item marketplace with categories</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Order Management System <span class="premium-badge"></span></div>
+                        <div class="feature-name">Order Management System <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Handle custom orders and requests</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Ban Appeals System <span class="premium-badge"></span></div>
+                        <div class="feature-name">Ban Appeals System <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Structured appeal process with reviews</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Giveaway Management <span class="premium-badge"></span></div>
+                        <div class="feature-name">Giveaway Management <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Advanced giveaway creation and automation</div>
                     </div>
                 </div>
@@ -312,23 +312,23 @@ include 'includes/header.php';
                 <h3>Enhanced Music Experience</h3>
                 <div class="feature-list premium">
                     <div class="feature-item">
-                        <div class="feature-name">Music Effects & Filters <span class="premium-badge"></span></div>
+                        <div class="feature-name">Music Effects & Filters <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Bass boost, reverb, and audio enhancements</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">High-Quality Audio Streaming <span class="premium-badge"></span></div>
+                        <div class="feature-name">High-Quality Audio Streaming <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Premium audio processing</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Extended Queue Management <span class="premium-badge"></span></div>
+                        <div class="feature-name">Extended Queue Management <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Unlimited playlist length</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Multi-Source Support <span class="premium-badge"></span></div>
+                        <div class="feature-name">Multi-Source Support <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Enhanced Spotify, SoundCloud integration</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Music Analytics <span class="premium-badge"></span></div>
+                        <div class="feature-name">Music Analytics <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Track listening habits and popular songs</div>
                     </div>
                 </div>
@@ -336,23 +336,23 @@ include 'includes/header.php';
                 <h3>Professional Server Tools</h3>
                 <div class="feature-list premium">
                     <div class="feature-item">
-                        <div class="feature-name">Advanced Custom Commands <span class="premium-badge"></span></div>
+                        <div class="feature-name">Advanced Custom Commands <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Complex command creation with variables</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Voice Channel Management <span class="premium-badge"></span></div>
+                        <div class="feature-name">Voice Channel Management <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Advanced voice room controls</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Professional Announcements <span class="premium-badge"></span></div>
+                        <div class="feature-name">Professional Announcements <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Scheduled and automated announcements</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Advanced Polling System <span class="premium-badge"></span></div>
+                        <div class="feature-name">Advanced Polling System <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Multi-option polls with analytics</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Custom Automation Workflows <span class="premium-badge"></span></div>
+                        <div class="feature-name">Custom Automation Workflows <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Create complex trigger-based actions</div>
                     </div>
                 </div>
@@ -360,23 +360,23 @@ include 'includes/header.php';
                 <h3>Premium Support & Features</h3>
                 <div class="feature-list premium">
                     <div class="feature-item">
-                        <div class="feature-name">Priority Customer Support <span class="premium-badge"></span></div>
+                        <div class="feature-name">Priority Customer Support <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Faster response times and dedicated help</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Advanced Configuration Backup <span class="premium-badge"></span></div>
+                        <div class="feature-name">Advanced Configuration Backup <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Export/import server configurations</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Beta Feature Access <span class="premium-badge"></span></div>
+                        <div class="feature-name">Beta Feature Access <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Early access to new features</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Custom Feature Requests <span class="premium-badge"></span></div>
+                        <div class="feature-name">Custom Feature Requests <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Request specific features for your server</div>
                     </div>
                     <div class="feature-item">
-                        <div class="feature-name">Direct Developer Contact <span class="premium-badge"></span></div>
+                        <div class="feature-name">Direct Developer Contact <span class="premium-badge">💎</span></div>
                         <div class="feature-desc">Access to development team for assistance</div>
                     </div>
                 </div>

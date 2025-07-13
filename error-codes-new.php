@@ -20,7 +20,7 @@ include 'includes/header.php';
             </div>
             
             <div class="content-main">
-                <h1>Error Codes Reference</h1>
+                <h1>🚨 Error Codes Reference</h1>
                 <p>Complete reference for all Nexi Bot error codes. Use this guide to quickly identify and resolve issues.</p>
 
                 <div class="alert alert-info">

@@ -19,7 +19,7 @@ include 'includes/header.php';
             </div>
             
             <div class="content-main">
-                <h1>Setup & Configuration Guide</h1>
+                <h1>🚀 Setup & Configuration Guide</h1>
                 <p>Complete guide to setting up and configuring Nexi Bot for your Discord server.</p>
 
                 <div class="alert alert-info">
