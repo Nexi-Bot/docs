@@ -13,550 +13,382 @@ include 'includes/header.php';
                     <li><a href="#overview" class="active">Overview</a></li>
                     <li><a href="#free-features">Free Features</a></li>
                     <li><a href="#premium-features">Premium Features</a></li>
-                    <li><a href="#feature-comparison">Feature Comparison</a></li>
                 </ul>
             </div>
             
             <div class="content-main">
-                <h1>Features Overview</h1>
+                <h1>⚡ Features Overview</h1>
                 <p>Nexi Bot offers a comprehensive suite of features designed to transform your Discord server into a thriving community. From essential moderation tools to advanced AI-powered automation, discover what makes Nexi Bot the ultimate choice for server management.</p>
 
                 <div class="alert alert-info">
-                    <strong>Quick Start:</strong> All free features are available immediately after setup. Premium features can be unlocked with a <a href="/premium">premium subscription</a> starting at £3.99/month.
+                    <strong>Quick Start:</strong> All free features are available immediately after setup. Premium features can be unlocked with a <a href="/premium">premium subscription</a> starting at $9.99/month.
                 </div>
 
                 <h2 id="overview">Feature Overview</h2>
                 
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 2L14.09 8.26L22 9L16 14.74L17.18 22.68L12 19.77L6.82 22.68L8 14.74L2 9L9.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <h3>Advanced Moderation</h3>
-                        <p>Comprehensive moderation tools including AI-powered content filtering, auto-moderation, and detailed logging systems.</p>
-                        <div class="feature-tags">
-                            <span class="tag tag-free">Free</span>
-                            <span class="tag tag-premium">Premium</span>
-                        </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Free Features</div>
                     </div>
-                    
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
-                            </svg>
-                        </div>
-                        <h3>Music System</h3>
-                        <p>High-quality music playback with support for multiple sources, playlists, and premium audio effects.</p>
-                        <div class="feature-tags">
-                            <span class="tag tag-free">Free</span>
-                            <span class="tag tag-premium">Premium</span>
-                        </div>
+                    <div class="stat-item">
+                        <div class="stat-number">30+</div>
+                        <div class="stat-label">Premium Features</div>
                     </div>
-                    
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3 3V21L12 15L21 21V3H3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M9 7H15M9 11H12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            </svg>
-                        </div>
-                        <h3>Analytics & Insights</h3>
-                        <p>Deep analytics into server growth, member engagement, and community health with detailed reports.</p>
-                        <div class="feature-tags">
-                            <span class="tag tag-premium">Premium Only</span>
-                        </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Integrations</div>
                     </div>
-                    
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M19 4H5c-1.11 0-2 .9-2 2v12c0 1.1.89 2 2 2h4v-2H5V8h14v10h-4v2h4c1.1 0 2-.9 2-2V6c0-1.1-.89-2-2-2zM12 10l-4 4h3v6h2v-6h3l-4-4z"/>
-                            </svg>
-                        </div>
-                        <h3>Integrations</h3>
-                        <p>Connect with Google Calendar, ERLC, Roblox, and more to streamline your server management.</p>
-                        <div class="feature-tags">
-                            <span class="tag tag-premium">Premium Only</span>
-                        </div>
-                    </div>
-                    
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M20,3H4A1,1 0 0,0 3,4V7A1,1 0 0,0 4,8H20A1,1 0 0,0 21,7V4A1,1 0 0,0 20,3M4,9A1,1 0 0,0 3,10V13A1,1 0 0,0 4,14H20A1,1 0 0,0 21,13V10A1,1 0 0,0 20,9M4,15A1,1 0 0,0 3,16V19A1,1 0 0,0 4,20H20A1,1 0 0,0 21,19V16A1,1 0 0,0 20,15"/>
-                            </svg>
-                        </div>
-                        <h3>Automation</h3>
-                        <p>Create complex workflows and automated responses to enhance member experience and reduce manual work.</p>
-                        <div class="feature-tags">
-                            <span class="tag tag-free">Basic</span>
-                            <span class="tag tag-premium">Advanced</span>
-                        </div>
-                    </div>
-                    
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
-                                <path d="M12 9L8 13H16L12 9Z" fill="currentColor"/>
-                            </svg>
-                        </div>
-                        <h3>Gaming Features</h3>
-                        <p>Specialized tools for gaming communities including ERLC integration, leveling systems, and game statistics.</p>
-                        <div class="feature-tags">
-                            <span class="tag tag-free">Basic</span>
-                            <span class="tag tag-premium">Advanced</span>
-                        </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Uptime</div>
                     </div>
                 </div>
 
-                <h2 id="free-features">Free Features</h2>
-                <p>Get started with these powerful features available to all servers at no cost:</p>
+                <h2 id="free-features">🆓 Free Features</h2>
 
-                <h3>Core Moderation</h3>
-                <div class="command-card">
-                    <h4>Basic Moderation Tools</h4>
-                    <ul>
-                        <li><strong>User Management:</strong> Kick, ban, mute, and warn users</li>
-                        <li><strong>Message Management:</strong> Bulk delete and message utilities</li>
-                        <li><strong>Slowmode Control:</strong> Manage channel message rates</li>
-                        <li><strong>Role Management:</strong> Assign and remove roles efficiently</li>
-                    </ul>
-                    
-                    <h4>Auto Moderation</h4>
-                    <ul>
-                        <li><strong>Spam Detection:</strong> Automatic spam prevention</li>
-                        <li><strong>Link Filtering:</strong> Control external links and invites</li>
-                        <li><strong>Caps Protection:</strong> Limit excessive capitalization</li>
-                        <li><strong>Duplicate Messages:</strong> Prevent message spam</li>
-                    </ul>
-                    
-                    <h4>Moderation Logs</h4>
-                    <ul>
-                        <li><strong>Action Tracking:</strong> Log all moderation actions</li>
-                        <li><strong>User Reports:</strong> Allow community reporting</li>
-                        <li><strong>Case Management:</strong> Track warnings and punishments</li>
-                    </ul>
-                </div>
-
-                <h3>Server Management</h3>
-                <div class="command-card">
-                    <h4>Welcome System</h4>
-                    <ul>
-                        <li><strong>Custom Greetings:</strong> Personalized welcome messages</li>
-                        <li><strong>Farewell Messages:</strong> Goodbye notifications</li>
-                        <li><strong>Auto Roles:</strong> Assign roles to new members</li>
-                        <li><strong>Welcome Cards:</strong> Beautiful graphical welcomes</li>
-                    </ul>
-                    
-                    <h4>Server Statistics</h4>
-                    <ul>
-                        <li><strong>Member Count:</strong> Real-time member statistics</li>
-                        <li><strong>Server Info:</strong> Comprehensive server details</li>
-                        <li><strong>Channel Usage:</strong> Basic activity tracking</li>
-                    </ul>
-                    
-                    <h4>Utility Tools</h4>
-                    <ul>
-                        <li><strong>Bump Reminders:</strong> Automated server bump notifications</li>
-                        <li><strong>Time Zone Support:</strong> Multi-timezone coordination</li>
-                        <li><strong>Server Backup:</strong> Basic configuration backup</li>
-                    </ul>
-                </div>
-
-                <h3>Community Features</h3>
-                <div class="command-card">
-                    <h4>Leveling System</h4>
-                    <ul>
-                        <li><strong>XP Tracking:</strong> Experience points for activity</li>
-                        <li><strong>Level Progression:</strong> Automatic level advancement</li>
-                        <li><strong>Leaderboards:</strong> Community engagement rankings</li>
-                        <li><strong>Role Rewards:</strong> Roles for reaching milestones</li>
-                    </ul>
-                    
-                    <h4>Interactive Features</h4>
-                    <ul>
-                        <li><strong>AFK System:</strong> Away-from-keyboard status</li>
-                        <li><strong>Birthday Tracking:</strong> Celebrate member birthdays</li>
-                        <li><strong>Starboard:</strong> Highlight popular messages</li>
-                        <li><strong>Reaction Roles:</strong> Self-assignable roles</li>
-                    </ul>
-                    
-                    <h4>Communication Tools</h4>
-                    <ul>
-                        <li><strong>Suggestion System:</strong> Collect community feedback</li>
-                        <li><strong>Basic Polls:</strong> Simple voting functionality</li>
-                        <li><strong>Custom Commands:</strong> Create server-specific commands</li>
-                    </ul>
-                </div>
-
-                <h3>Basic Music System</h3>
-                <div class="command-card">
-                    <h4>Music Playback</h4>
-                    <ul>
-                        <li><strong>Multi-Source Support:</strong> YouTube, Spotify, SoundCloud</li>
-                        <li><strong>Queue Management:</strong> Add, remove, and reorder songs</li>
-                        <li><strong>Basic Controls:</strong> Play, pause, skip, stop</li>
-                        <li><strong>Volume Control:</strong> Adjust playback volume</li>
-                    </ul>
-                    
-                    <h4>Playlist Features</h4>
-                    <ul>
-                        <li><strong>Basic Playlists:</strong> Create and save playlists</li>
-                        <li><strong>Shuffle Mode:</strong> Randomize playback order</li>
-                        <li><strong>Repeat Options:</strong> Loop songs or playlists</li>
-                    </ul>
-                </div>
-
-                <h3>Basic Logging</h3>
-                <div class="command-card">
-                    <h4>Activity Logs</h4>
-                    <ul>
-                        <li><strong>Join/Leave Logs:</strong> Member activity tracking</li>
-                        <li><strong>Message Logs:</strong> Deleted/edited message logging</li>
-                        <li><strong>Role Changes:</strong> Role modification tracking</li>
-                        <li><strong>Basic Audit Logs:</strong> Essential server changes</li>
-                    </ul>
-                </div>
-
-                <h2 id="premium-features">Premium Features</h2>
-                <p>Unlock the full potential of your server with these advanced premium features:</p>
-
-                <h3>AI-Powered Moderation <span class="premium-badge">PREMIUM</span></h3>
-                <div class="command-card">
-                    <h4>Intelligent Content Filtering</h4>
-                    <ul>
-                        <li><strong>AI Detection:</strong> Context-aware content analysis</li>
-                        <li><strong>Image Moderation:</strong> Automatic inappropriate image detection</li>
-                        <li><strong>Toxicity Detection:</strong> Identify harmful language patterns</li>
-                        <li><strong>False Positive Reduction:</strong> Smart learning algorithms</li>
-                    </ul>
-                    
-                    <h4>Advanced Auto-Mod</h4>
-                    <ul>
-                        <li><strong>Custom Sensitivity:</strong> Adjustable detection levels</li>
-                        <li><strong>Context Understanding:</strong> Situational awareness</li>
-                        <li><strong>Multi-Language Support:</strong> Global community protection</li>
-                        <li><strong>Learning System:</strong> Improves over time</li>
-                    </ul>
-                    
-                    <h4>Advanced Logging</h4>
-                    <ul>
-                        <li><strong>Comprehensive Audit Trails:</strong> Detailed action logs</li>
-                        <li><strong>Custom Log Channels:</strong> Organized logging system</li>
-                        <li><strong>Export Capabilities:</strong> Download log data</li>
-                        <li><strong>Analytics Integration:</strong> Moderation insights</li>
-                    </ul>
-                </div>
-
-                <h3>Automation & Workflows <span class="premium-badge">PREMIUM</span></h3>
-                <div class="command-card">
-                    <h4>Custom Automation</h4>
-                    <ul>
-                        <li><strong>Trigger-Based Actions:</strong> Event-driven automation</li>
-                        <li><strong>Conditional Logic:</strong> If-then-else workflows</li>
-                        <li><strong>Multi-Step Processes:</strong> Complex automation chains</li>
-                        <li><strong>Scheduled Tasks:</strong> Time-based automation</li>
-                    </ul>
-                    
-                    <h4>Advanced Auto-Role</h4>
-                    <ul>
-                        <li><strong>Conditional Assignment:</strong> Role-based criteria</li>
-                        <li><strong>Time-Delayed Roles:</strong> Assign after duration</li>
-                        <li><strong>Activity-Based Roles:</strong> Based on engagement</li>
-                        <li><strong>Verification Systems:</strong> Multi-step verification</li>
-                    </ul>
-                    
-                    <h4>Workflow Builder</h4>
-                    <ul>
-                        <li><strong>Visual Editor:</strong> Drag-and-drop interface</li>
-                        <li><strong>Template Library:</strong> Pre-built workflows</li>
-                        <li><strong>Testing Environment:</strong> Safe workflow testing</li>
-                        <li><strong>Performance Monitoring:</strong> Workflow analytics</li>
-                    </ul>
-                </div>
-
-                <h3>Analytics & Insights <span class="premium-badge">PREMIUM</span></h3>
-                <div class="command-card">
-                    <h4>Server Analytics</h4>
-                    <ul>
-                        <li><strong>Growth Metrics:</strong> Member acquisition and retention</li>
-                        <li><strong>Engagement Tracking:</strong> Activity and participation data</li>
-                        <li><strong>Channel Performance:</strong> Usage and popularity metrics</li>
-                        <li><strong>Time-Based Analysis:</strong> Trends and patterns</li>
-                    </ul>
-                    
-                    <h4>Member Analytics</h4>
-                    <ul>
-                        <li><strong>Individual Insights:</strong> Per-member statistics</li>
-                        <li><strong>Engagement Scoring:</strong> Activity-based ratings</li>
-                        <li><strong>Behavior Patterns:</strong> Usage trend analysis</li>
-                        <li><strong>Retention Metrics:</strong> Member lifecycle tracking</li>
-                    </ul>
-                    
-                    <h4>Custom Reports</h4>
-                    <ul>
-                        <li><strong>Automated Reports:</strong> Scheduled analytics delivery</li>
-                        <li><strong>Custom Dashboards:</strong> Personalized metric views</li>
-                        <li><strong>Data Export:</strong> CSV and JSON export options</li>
-                        <li><strong>Visual Charts:</strong> Graphs and infographics</li>
-                    </ul>
-                </div>
-
-                <h3>Advanced Integrations <span class="premium-badge">PREMIUM</span></h3>
-                <div class="command-card">
-                    <h4>Google Workspace</h4>
-                    <ul>
-                        <li><strong>Google Calendar:</strong> Event sync and notifications</li>
-                        <li><strong>Google Forms:</strong> Response automation</li>
-                        <li><strong>Google Drive:</strong> File sharing integration</li>
-                        <li><strong>Gmail:</strong> Email notification system</li>
-                    </ul>
-                    
-                    <h4>Gaming Integrations</h4>
-                    <ul>
-                        <li><strong>ERLC Integration:</strong> Emergency Response: Liberty County
-                            <ul>
-                                <li>Player lookup and statistics</li>
-                                <li>Server status monitoring</li>
-                                <li>Performance tracking</li>
-                                <li>Custom notifications</li>
-                            </ul>
-                        </li>
-                        <li><strong>Roblox Integration:</strong> Full platform support
-                            <ul>
-                                <li>Account verification system</li>
-                                <li>Group management tools</li>
-                                <li>Game statistics tracking</li>
-                                <li>Avatar display features</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    
-                    <h4>External Services</h4>
-                    <ul>
-                        <li><strong>Jotform:</strong> Advanced form handling</li>
-                        <li><strong>Custom Webhooks:</strong> API endpoint connections</li>
-                        <li><strong>Social Media:</strong> Platform notifications</li>
-                        <li><strong>Payment Systems:</strong> Transaction integration</li>
-                    </ul>
-                </div>
-
-                <h3>Enhanced Music System <span class="premium-badge">PREMIUM</span></h3>
-                <div class="command-card">
-                    <h4>High-Quality Audio</h4>
-                    <ul>
-                        <li><strong>Premium Bitrate:</strong> Crystal-clear audio quality</li>
-                        <li><strong>Audio Effects:</strong> Equalizer and sound filters</li>
-                        <li><strong>Noise Reduction:</strong> Clean audio processing</li>
-                        <li><strong>Volume Normalization:</strong> Consistent audio levels</li>
-                    </ul>
-                    
-                    <h4>Advanced Features</h4>
-                    <ul>
-                        <li><strong>Unlimited Queues:</strong> No playlist length limits</li>
-                        <li><strong>Advanced Controls:</strong> Seek, loop sections, speed control</li>
-                        <li><strong>Multi-Room Support:</strong> Multiple voice channels</li>
-                        <li><strong>DJ Mode:</strong> Advanced queue management</li>
-                    </ul>
-                    
-                    <h4>Premium Sources</h4>
-                    <ul>
-                        <li><strong>Spotify Premium:</strong> Direct Spotify integration</li>
-                        <li><strong>Apple Music:</strong> Apple Music support</li>
-                        <li><strong>Deezer:</strong> High-quality streaming</li>
-                        <li><strong>Custom Sources:</strong> Upload your own files</li>
-                    </ul>
-                </div>
-
-                <h3>Economy System <span class="premium-badge">PREMIUM</span></h3>
-                <div class="command-card">
-                    <h4>Virtual Currency</h4>
-                    <ul>
-                        <li><strong>Custom Currency:</strong> Server-specific economy</li>
-                        <li><strong>Earning Methods:</strong> Multiple ways to gain currency</li>
-                        <li><strong>Transaction System:</strong> Secure currency transfers</li>
-                        <li><strong>Bank System:</strong> Savings and interest rates</li>
-                    </ul>
-                    
-                    <h4>Shop System</h4>
-                    <ul>
-                        <li><strong>Virtual Marketplace:</strong> Buy and sell items</li>
-                        <li><strong>Custom Items:</strong> Create unique server items</li>
-                        <li><strong>Role Purchases:</strong> Buy special roles</li>
-                        <li><strong>Limited Editions:</strong> Exclusive time-limited items</li>
-                    </ul>
-                    
-                    <h4>Economy Management</h4>
-                    <ul>
-                        <li><strong>Daily Rewards:</strong> Automated daily bonuses</li>
-                        <li><strong>Economy Analytics:</strong> Track economic health</li>
-                        <li><strong>Inflation Control:</strong> Automatic balance adjustments</li>
-                        <li><strong>Tax System:</strong> Optional server taxation</li>
-                    </ul>
-                </div>
-
-                <h3>Advanced Giveaway System <span class="premium-badge">PREMIUM</span></h3>
-                <div class="command-card">
-                    <h4>Giveaway Features</h4>
-                    <ul>
-                        <li><strong>Multi-Requirement Entries:</strong> Complex entry criteria</li>
-                        <li><strong>Scheduled Giveaways:</strong> Automated giveaway management</li>
-                        <li><strong>Multiple Winners:</strong> Select multiple winners</li>
-                        <li><strong>Bonus Entries:</strong> Reward loyal members</li>
-                    </ul>
-                    
-                    <h4>Advanced Management</h4>
-                    <ul>
-                        <li><strong>Entry Analytics:</strong> Track participation metrics</li>
-                        <li><strong>Winner Management:</strong> Automated winner notification</li>
-                        <li><strong>Reroll System:</strong> Alternative winner selection</li>
-                        <li><strong>Entry History:</strong> Track member participation</li>
-                    </ul>
-                </div>
-
-                <h3>Ban Appeals System <span class="premium-badge">PREMIUM</span></h3>
-                <div class="command-card">
-                    <h4>Appeal Management</h4>
-                    <ul>
-                        <li><strong>Structured Process:</strong> Organized appeal workflow</li>
-                        <li><strong>Staff Review System:</strong> Multi-step approval process</li>
-                        <li><strong>Appeal Analytics:</strong> Success rate tracking</li>
-                        <li><strong>Custom Forms:</strong> Tailored appeal questions</li>
-                    </ul>
-                    
-                    <h4>Notification System</h4>
-                    <ul>
-                        <li><strong>Status Updates:</strong> Automated appeal progress</li>
-                        <li><strong>Staff Alerts:</strong> New appeal notifications</li>
-                        <li><strong>Decision Tracking:</strong> Appeal outcome logging</li>
-                        <li><strong>Follow-up System:</strong> Post-decision communication</li>
-                    </ul>
-                </div>
-
-                <h3>Premium Support <span class="premium-badge">PREMIUM</span></h3>
-                <div class="command-card">
-                    <h4>Priority Support Benefits</h4>
-                    <ul>
-                        <li><strong>Faster Response Times:</strong> 6-12 hour response guarantee*</li>
-                        <li><strong>Direct Developer Access:</strong> Contact development team</li>
-                        <li><strong>Custom Setup Assistance:</strong> Personalized configuration</li>
-                        <li><strong>Feature Requests:</strong> Priority feature development</li>
-                    </ul>
-                    
-                    <h4>Exclusive Access</h4>
-                    <ul>
-                        <li><strong>Beta Features:</strong> Early access to new features</li>
-                        <li><strong>Advanced Troubleshooting:</strong> Detailed technical assistance</li>
-                        <li><strong>Server Optimization:</strong> Performance tuning advice</li>
-                        <li><strong>Custom Integrations:</strong> Specialized integration support</li>
-                    </ul>
-                    
-                    <p><small>*Response times are estimated, not guaranteed. Actual response times may vary based on support volume and complexity.</small></p>
-                </div>
-
-                <h2 id="feature-comparison">Feature Comparison</h2>
-                
-                <div class="table-container">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Feature Category</th>
-                                <th>Free</th>
-                                <th>Premium</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><strong>Moderation</strong></td>
-                                <td>Basic tools, auto-mod, logging</td>
-                                <td>AI-powered, image mod, advanced rules</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Music System</strong></td>
-                                <td>Standard quality, basic features</td>
-                                <td>High-quality, effects, unlimited queues</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Analytics</strong></td>
-                                <td>Basic server stats</td>
-                                <td>Comprehensive analytics, custom reports</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Automation</strong></td>
-                                <td>Simple auto-roles, basic triggers</td>
-                                <td>Complex workflows, conditional logic</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Integrations</strong></td>
-                                <td>None</td>
-                                <td>Google, ERLC, Roblox, Custom APIs</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Economy</strong></td>
-                                <td>None</td>
-                                <td>Full virtual economy system</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Giveaways</strong></td>
-                                <td>Basic giveaways</td>
-                                <td>Advanced requirements, analytics</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Support</strong></td>
-                                <td>24-48 hour response*</td>
-                                <td>6-12 hour priority response*</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-                <p><small>*Response times are estimated, not guaranteed. Actual response times may vary.</small></p>
-
-                <div class="alert alert-success">
-                    <h4>Ready to Upgrade?</h4>
-                    <p>Unlock the full potential of your Discord server with Nexi Premium. Get advanced features, priority support, and exclusive integrations.</p>
-                    
-                    <div style="margin-top: 20px;">
-                        <a href="/premium" class="btn btn-premium">Upgrade to Premium</a>
-                        <a href="/setup" class="btn btn-secondary">Setup Free Features</a>
+                <h3>Core Server Management</h3>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <div class="feature-name">Server Configuration Panel</div>
+                        <div class="feature-desc">Centralized <code>/config</code> command for all settings</div>
                     </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Welcome & Farewell System</div>
+                        <div class="feature-desc">Greet new members and say goodbye to leaving ones</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Auto Role Assignment</div>
+                        <div class="feature-desc">Automatically assign roles to new members</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Server Statistics Display</div>
+                        <div class="feature-desc">Real-time member count and server info</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Bump Reminder System</div>
+                        <div class="feature-desc">Automated server bump notifications for growth</div>
+                    </div>
+                </div>
+
+                <h3>Basic Moderation Tools</h3>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <div class="feature-name">User Moderation</div>
+                        <div class="feature-desc">Kick, ban, mute, and warn users</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Message Management</div>
+                        <div class="feature-desc">Bulk delete messages and cleanup</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Slowmode Control</div>
+                        <div class="feature-desc">Manage channel message rates</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Basic Logging</div>
+                        <div class="feature-desc">Track essential server activities</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Moderation History</div>
+                        <div class="feature-desc">View past moderation actions</div>
+                    </div>
+                </div>
+
+                <h3>Community Engagement</h3>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <div class="feature-name">Starboard System</div>
+                        <div class="feature-desc">Highlight popular messages with star reactions</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Reaction Roles</div>
+                        <div class="feature-desc">Self-assignable roles via message reactions</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Birthday Tracking</div>
+                        <div class="feature-desc">Remember and celebrate member birthdays</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">AFK Status System</div>
+                        <div class="feature-desc">Manage away-from-keyboard notifications</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Basic Polling</div>
+                        <div class="feature-desc">Simple yes/no polls for community decisions</div>
+                    </div>
+                </div>
+
+                <h3>Music & Entertainment</h3>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <div class="feature-name">Music Playback</div>
+                        <div class="feature-desc">Play music from YouTube and other sources</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Queue Management</div>
+                        <div class="feature-desc">Add, skip, and manage music queues</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Basic Music Controls</div>
+                        <div class="feature-desc">Play, pause, stop, volume control</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Search Functionality</div>
+                        <div class="feature-desc">Find songs by name or artist</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Now Playing Display</div>
+                        <div class="feature-desc">Show current track information</div>
+                    </div>
+                </div>
+
+                <h3>Utility Tools</h3>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <div class="feature-name">Server Information</div>
+                        <div class="feature-desc">Detailed server stats and information</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">User Information</div>
+                        <div class="feature-desc">Display user profiles and join dates</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Global Statistics</div>
+                        <div class="feature-desc">View bot usage across all servers</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Setup Wizard</div>
+                        <div class="feature-desc">Quick initial bot configuration</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Basic Custom Commands</div>
+                        <div class="feature-desc">Simple text-based custom responses</div>
+                    </div>
+                </div>
+
+                <h3>Basic Logging & Monitoring</h3>
+                <div class="feature-list">
+                    <div class="feature-item">
+                        <div class="feature-name">Join/Leave Logs</div>
+                        <div class="feature-desc">Track member activity</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Message Logs</div>
+                        <div class="feature-desc">Basic deleted message tracking</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Role Change Logs</div>
+                        <div class="feature-desc">Monitor role modifications</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Command Usage Logs</div>
+                        <div class="feature-desc">Track bot command usage</div>
+                    </div>
+                </div>
+
+                <h2 id="premium-features">💎 Premium Features</h2>
+
+                <h3>Advanced Moderation & AI</h3>
+                <div class="feature-list premium">
+                    <div class="feature-item">
+                        <div class="feature-name">AI-Powered Moderation <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Intelligent content filtering using OpenAI</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Advanced Auto-Moderation <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Context-aware rule enforcement</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Image Moderation <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Automatic inappropriate image detection</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Enhanced Logging System <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Comprehensive audit trails</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Advanced Moderation Tools <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Sophisticated punishment workflows</div>
+                    </div>
+                </div>
+
+                <h3>External Service Integrations</h3>
+                <div class="feature-list premium">
+                    <div class="feature-item">
+                        <div class="feature-name">Google Calendar Integration <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Sync events and reminders</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Google Forms Integration <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Automate form response handling</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Jotform Integration <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Advanced form management and analytics</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">ERLC Integration <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Emergency Response Liberty County game features</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Social Media Integration <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Auto-post updates from social platforms</div>
+                    </div>
+                </div>
+
+                <h3>Advanced Analytics & Insights</h3>
+                <div class="feature-list premium">
+                    <div class="feature-item">
+                        <div class="feature-name">Server Analytics Dashboard <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Detailed growth and engagement metrics</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Member Activity Analytics <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">User engagement tracking</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Message Pattern Analysis <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Communication trend insights</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Custom Report Generation <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Personalized analytics reports</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Data Export Capabilities <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Export analytics data for external use</div>
+                    </div>
+                </div>
+
+                <h3>Roblox Game Integration</h3>
+                <div class="feature-list premium">
+                    <div class="feature-item">
+                        <div class="feature-name">Roblox Player Verification <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Link Discord accounts to Roblox</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Group Management Tools <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Manage Roblox group members</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Roblox Application Centre <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Game submission and review system</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Player Statistics <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Detailed Roblox player performance data</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Automated Rank Management <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Sync Roblox ranks with Discord roles</div>
+                    </div>
+                </div>
+
+                <h3>Advanced Economy & Commerce</h3>
+                <div class="feature-list premium">
+                    <div class="feature-item">
+                        <div class="feature-name">Virtual Economy System <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Server-specific currency and rewards</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Advanced Shop System <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Virtual item marketplace with categories</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Order Management System <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Handle custom orders and requests</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Ban Appeals System <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Structured appeal process with reviews</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Giveaway Management <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Advanced giveaway creation and automation</div>
+                    </div>
+                </div>
+
+                <h3>Enhanced Music Experience</h3>
+                <div class="feature-list premium">
+                    <div class="feature-item">
+                        <div class="feature-name">Music Effects & Filters <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Bass boost, reverb, and audio enhancements</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">High-Quality Audio Streaming <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Premium audio processing</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Extended Queue Management <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Unlimited playlist length</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Multi-Source Support <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Enhanced Spotify, SoundCloud integration</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Music Analytics <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Track listening habits and popular songs</div>
+                    </div>
+                </div>
+
+                <h3>Professional Server Tools</h3>
+                <div class="feature-list premium">
+                    <div class="feature-item">
+                        <div class="feature-name">Advanced Custom Commands <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Complex command creation with variables</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Voice Channel Management <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Advanced voice room controls</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Professional Announcements <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Scheduled and automated announcements</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Advanced Polling System <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Multi-option polls with analytics</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Custom Automation Workflows <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Create complex trigger-based actions</div>
+                    </div>
+                </div>
+
+                <h3>Premium Support & Features</h3>
+                <div class="feature-list premium">
+                    <div class="feature-item">
+                        <div class="feature-name">Priority Customer Support <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Faster response times and dedicated help</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Advanced Configuration Backup <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Export/import server configurations</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Beta Feature Access <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Early access to new features</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Custom Feature Requests <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Request specific features for your server</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-name">Direct Developer Contact <span class="premium-badge">💎</span></div>
+                        <div class="feature-desc">Access to development team for assistance</div>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h3>Ready to Upgrade?</h3>
+                    <p>Unlock all premium features and take your Discord server to the next level.</p>
+                    <a href="https://nexibot.uk/features" class="btn btn-premium">Get Premium Now</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-<style>
-.tag {
-    display: inline-block;
-    padding: 4px 8px;
-    border-radius: 12px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    margin-right: 5px;
-}
-
-.tag-free {
-    background: rgba(87, 242, 135, 0.2);
-    color: var(--success-color);
-}
-
-.tag-premium {
-    background: rgba(255, 215, 0, 0.2);
-    color: var(--premium-color);
-}
-
-.feature-tags {
-    margin-top: 15px;
-}
-
-.features-grid .feature-card {
-    min-height: 280px;
-}
-</style>
 
 <?php include 'includes/footer.php'; ?>
